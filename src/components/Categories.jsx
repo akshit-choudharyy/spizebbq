@@ -9,20 +9,26 @@ import img7 from "../assets/s3.jpg";
 import img8 from "../assets/m2.jpg";
 import img9 from "../assets/m3.jpg";
 import img10 from "../assets/c2.jpg";
+
+import friedchicken from "../img/friedcihicken.jpg";
+import paneer from "../img/paneer-tikka.jpg";
+import sweets from "../img/sweets.jpg";
+import veggies from "../img/veggies.png";
+
 import ch from "../assets/ch.jpg"
 import ch2 from "../assets/ch2.jpg"
 function Categories() {
   const categoryItems = [
     { id: 1, title: "Starters", image: img2, image2: img10, desc: "Savor our delicious Chinese starters, including crispy spring rolls, flavourful momos, and spicy szechuan chicken, perfect for any occasion." },
-    { id: 2, title: "Soups", image: img7, image2: img5, desc: "Warm up with our soups: savory hot and sour, fresh vegetables , aromatic egg drop, and nourishing chicken corn, all freshly prepared." },
-    { id: 3, title: "Noodles & Rice", image: img3, image2: img4, desc: "Indulge in our noodle and rice dishes: savory lo mein, spicy Szechuan noodles, fragant fried rice, and classsic chow mein." },
-    { id: 4, title: "Chopsuey", image: ch, image2: ch2, desc: "A flavorful mix of tender meats, fresh vegetables and savory sauce, served with steamed rice." }
+    { id: 2, title: "Paneer Tikka", image: paneer, desc: "Warm up with our soups: savory hot and sour, fresh vegetables , aromatic egg drop, and nourishing chicken corn, all freshly prepared." },
+    { id: 3, title: "Sweets", image: sweets , desc: "Indulge in our noodle and rice dishes: savory lo mein, spicy Szechuan noodles, fragant fried rice, and classsic chow mein." },
+    { id: 4, title: "Sweets", image: veggies, desc: "A flavorful mix of tender meats, fresh vegetables and savory sauce, served with steamed rice." }
   ];
 
   return (
     <>
     <div className='max-w-screen-2xl xl:px-20 px-4 py-24 mx-auto text-center mt-[200px] md:mt-11'>
-      <h2 className='title'>Popular Categories</h2>
+      <h2 className='title'>Popular Eateries</h2>
     </div>
     {/* category cards */}
     <div className='flex flex-col sm:flex-row flex-wrap gap-12 justify-center items-center mt-2'>

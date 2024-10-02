@@ -22,7 +22,7 @@ function Navbar() {
     }, []);
 
     return (
-        <div className={`w-full z-40 bg-white fixed left-0 right-0 top-0 transition-all duration-300 ease-in-out ${isSticky ? "shadow-md bg-base-100" : ""}`}>
+        <div className={`w-full z-40 bg-[#FEFAE0] fixed left-0 right-0 top-0 transition-all duration-300 ease-in-out ${isSticky ? "shadow-md bg-base-100" : ""}`}>
             <div className={`max-w-screen-2xl container mx-auto navbar xl:px-24 h-24`}> {/* Set a fixed height for the navbar */}
                 <div className="navbar-start flex items-center h-full"> {/* Ensure the start section takes full height */}
                     <div className="dropdown">
@@ -37,10 +37,10 @@ function Navbar() {
                                 <a className='text-xl ' href='/menu'>Menu</a>
                                 <ul className="w-full px-8 flex flex-col items-center"> {/* Full width and centered items */}
                                     <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Soups</a></li>
-                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Chinese Starters</a></li>
-                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Noodles and Rice</a></li>
-                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Momos</a></li>
-                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Chopsuey</a></li>
+                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Paneer Tikka</a></li>
+                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Veggies</a></li>
+                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Fried Chicken</a></li>
+                                    <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Sweets</a></li>
                                     <li className="text-lg  hover:text-red-700"><a className='hover:text-red-700' href='/menu'>Main Course</a></li>
                                 </ul>
                             </li>
@@ -59,10 +59,10 @@ function Navbar() {
                                 <summary className="text-lg">Today's Menu</summary>
                                 <ul className="w-[200px] flex flex-col items-center"> {/* Adjusted width and centered items */}
                                     <li className="text-lg "><a  href='/menu' >Soups</a></li>
-                                    <li className="text-lg "><a href='/menu' >Chinese Starters</a></li>
-                                    <li className="text-lg "><a  href='/menu'>Noodles and Rice</a></li>
-                                    <li className="text-lg "><a href='/menu' >Momos</a></li>
-                                    <li className="text-lg "><a href='/menu' >Chopsuey</a></li>
+                                    <li className="text-lg "><a href='/menu' >Paneer Tikka</a></li>
+                                    <li className="text-lg "><a  href='/menu'>Veggies</a></li>
+                                    <li className="text-lg "><a href='/menu' >Fried Chicken</a></li>
+                                    <li className="text-lg "><a href='/menu' >Sweets</a></li>
                                     <li className="text-lg "><a href='/menu' >Main Course</a></li>
                                 </ul>
                             </details>
